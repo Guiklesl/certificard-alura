@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(https://i2.wp.com/files.123freevectors.com/wp-content/original/130924-abstract-blue-and-orange-polygon-pattern-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.avatar {
+  border-radius: 160px;
+  height: 150px;
+}
+.bloco {
+  margin: 40px;
+  padding: 40px;
+  background: #ecf4ff;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 20px;
+}
+.cabecalho{
+  display:flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  }
+
+.tema button{
+  align-self: flex-end;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ECF4FF;
+  border: 2px solid #0E1D2F;
+  box-sizing: border-box;
+  border-radius: 100px;
+  }
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  margin-top: 20px;
+  padding: 16px;
+  /*   background: #00cc99;
+  border-radius: 20px; */
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  margin-bottom: 12px
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+.projetos-item {
+  line-height: 48px;
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  margin-left:36px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+ }
+.dark .bloco{
+  background: #333439;
+  color: #F7F7F7;
+}
+
+.dark .projetos{
+  color: #1C1C1C;
+}
+
+.dark .tema button {
+  background: #1C1C1C;
+  color: white;
+  border: 2px solid #F7F7F7;
+}
